@@ -13,7 +13,7 @@ pipeline {
 		stage('Build Artifact') {
             steps {
                 echo 'Build Artifact with maven build tool'
-				sh 'mvn clean sonar:sonar install'
+				sh 'mvn clean install'
             }
         }
 		
