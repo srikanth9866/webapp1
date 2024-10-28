@@ -18,12 +18,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://54.86.37.67:8081/repository/batch12-snapshots/</url>
+		    <url>http://http://localhost:8081//repository/batch12-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://54.86.37.67:8081/repository/batch12-release/</url>
+		    <url>http://http://localhost:8081//repository/batch12-release/</url>
 		</repository>
   	</distributionManagement>
 	
@@ -33,7 +33,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
+                <version>3.6.3</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
